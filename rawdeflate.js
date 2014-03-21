@@ -1643,7 +1643,7 @@ var zip_qoutbuf = function() {
     }
 }
 
-var zip_deflate = function(str, level) {
+/*var*/ zip_deflate = function(str, level) {
     var i, j;
 
     zip_deflate_data = str;
